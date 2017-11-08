@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.div-text {
+    border-top: 5px solid rgba(63, 63, 63, 0.842);
+}
+
+.text-about {
+    padding: 20px 20px 20px 20px;
+    font-size: 18px;
+    text-align: justify;
+    background: rgba(255,255,255,0.85);
+}
+
+.div-galery, .div-media {
+    background: black;
+}
+
+.div-container {
+    width: 1140px;
+    margin: 40px auto 40px auto;
+}
+
+.div-header {
+}
+
+.div-header-logo, .div-header-text {
+    float: left;
+}
+
+.div-header-logo {
+    width: 25%;
+}
+
+.img-logo {
+    height: 300px;
+}
+
+.div-header-text {
+    border-right: 10px solid rgba(63, 63, 63, 0.842);
+    width: 75%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /*background-image: url("http://magazine.viterbi.usc.edu/wp-content/uploads/BSP_054.jpg");*/
+    background-image: url("http://chicagopolicyreview.org/wp-content/uploads/2016/04/space-4.1-CPR.jpg");
+    /*background-image: url("https://www-tc.pbs.org/wgbh/nova/next/wp-content/uploads/2017/06/quantum-entanglement_2048x1152.jpg");*/
+}
+
+h1, h2 {
+    text-align: center;
+    color: rgba(255,255,255, 0.85);
+}
+
+h1 {
+    font-size: 80px;
+    /*background-image: url("http://magazine.viterbi.usc.edu/wp-content/uploads/BSP_054.jpg");*/
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 40px;
+    text-align: left;
+}
