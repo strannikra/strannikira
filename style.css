@@ -4,72 +4,124 @@
     box-sizing: border-box;
 }
 
+
+@font-face {
+    font-family: Supermolot-Thin;
+    src: url("10965.ttf");
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /*background-image: url("http://chicagopolicyreview.org/wp-content/uploads/2016/04/space-4.1-CPR.jpg");*/
+    /* background-image: url("http://xn--24-6kc3bf4angc2g.xn--p1ai/download/%D0%BC%D0%B0%D1%81%D1%81%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BC%D0%B5%D1%80%D0%BE%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D1%8F/Semk874vvS4.jpg"); */
+    /*background-image: url("http://xn--24-6kc3bf4angc2g.xn--p1ai/download/%D0%BC%D0%B0%D1%81%D1%81%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BC%D0%B5%D1%80%D0%BE%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D1%8F/vHE3es6acxc.jpg");*/
+    background: white;
+    background-position: center;
+}
+
+.container {
+    background: white;
+    /*background-image: url("http://xn--24-6kc3bf4angc2g.xn--p1ai/download/%D0%BC%D0%B0%D1%81%D1%81%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BC%D0%B5%D1%80%D0%BE%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D1%8F/vHE3es6acxc.jpg");*/
+}
+
+.content {
+    width: 70%;
+    margin: 40px auto 40px auto;
+}
+
+.header {
+    /*padding: 200px 10px 100px 10px;*/
+    background-position: center;
+    /*background: ulr("https://pp.userapi.com/c303702/v303702913/244c/nGyuMbG5gq4.jpg");*/
+    margin-top: 0px;
+    height: auto;
+}
+
+.header h1 {
+    font-family: Supermolot-Thin;
+    padding: 150px 10px 150px 10px;
+    font-size: 80px;
+    color: white;
+    background: rgba(0,0,0, 0.712);
+}
+
+h1, h2 {
+    font-family: Supermolot-Thin;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    /*background: rgba(0, 0, 0, 0.116);*/
+}
+
+.content h2 {
+    margin-top: 30px;
+    padding: 10px 10px 10px 10px;
+    font-size: 24px;
+    text-align: left;
+    color: #2c3e50;
+    border-bottom: 3px solid #2c3e50;
+}
+
 .clearfix:after {
     content: "";
     display: table;
     clear: both;
 }
 
-.div-text {
-    border-top: 5px solid rgba(63, 63, 63, 0.842);
-}
-
-.text-about {
+.legend, .text {
+    font-family: Supermolot-Thin;
     padding: 20px 20px 20px 20px;
-    font-size: 18px;
-    text-align: justify;
     background: rgba(255,255,255,0.85);
 }
 
-.div-galery, .div-media {
-    background: black;
+.legend {
+    font-size: 20px;
+    text-align: center;
 }
 
-.div-container {
-    width: 1140px;
-    margin: 40px auto 40px auto;
+.text {
+    font-size: 18px;
+    text-align: justify;
 }
 
-.div-header {
+.content img {
+    width: 250px;
+    height: auto;
 }
 
-.div-header-logo, .div-header-text {
+#galery {
+    height: 300px;
+    margin-top: 40px;
+    background: #2c3e50;
+    border-radius: 3px;
+}
+
+
+.tail {
+    height: 300px;
+    margin-top: 40px;
+    background: #2c3e50;
+    border-radius: 3px;
+}
+
+.person {
+    margin: 10px 10px 10px 10px;
+    position: relative;
     float: left;
 }
 
-.div-header-logo {
-    width: 25%;
+.person p img{
+    float: left;
+    width: auto;
 }
 
-.img-logo {
-    height: 300px;
+.person p {
+    padding-left: 80px;
+    padding-top: 20px;
 }
 
-.div-header-text {
-    border-right: 10px solid rgba(63, 63, 63, 0.842);
-    width: 75%;
-}
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    /*background-image: url("http://magazine.viterbi.usc.edu/wp-content/uploads/BSP_054.jpg");*/
-    background-image: url("http://chicagopolicyreview.org/wp-content/uploads/2016/04/space-4.1-CPR.jpg");
-    /*background-image: url("https://www-tc.pbs.org/wgbh/nova/next/wp-content/uploads/2017/06/quantum-entanglement_2048x1152.jpg");*/
-}
-
-h1, h2 {
-    text-align: center;
-    color: rgba(255,255,255, 0.85);
-}
-
-h1 {
-    font-size: 80px;
-    /*background-image: url("http://magazine.viterbi.usc.edu/wp-content/uploads/BSP_054.jpg");*/
-}
-
-h2 {
-    margin-top: 20px;
-    margin-bottom: 5px;
-    font-size: 40px;
-    text-align: left;
+.person img {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    float: left;
 }
