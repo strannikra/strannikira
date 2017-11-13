@@ -15,4 +15,9 @@ function updateBackground() {
     elem.style.backgroundImage = "url(" + backgroundImages[idx] + ")";
 }
 
+function fillGaleryWithImages() {
+    let galery = document.querySelector('.galery');
+}
+
 updateBackground();
+fillGaleryWithImages();
