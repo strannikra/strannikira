@@ -3,20 +3,14 @@
     src: url("Supermolot-Thin.ttf");
 }
 
-@font-face {
-    font-family: Text-Font;
-    src: url("Segoe-UI-Semilight.ttf");
-}
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Text-Font;
-}
-
-p {
-    line-height: 110%;
+    font-family: 'Didact Gothic', sans-serif;   
+    font-family: 'Jura', sans-serif;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-family: 'Marmelad', sans-serif;
 }
 
 body {
@@ -41,9 +35,13 @@ body {
     background-position: center;
 }
 
+h1 h2 {
+   
+}
+
 .header h1 {
-    padding: 300px 100px 10px 40px;
     font-family: Header-Font;
+    padding: 300px 100px 10px 40px;
     font-size: 80px;
     color: white;
     filter: contrast(110%);
@@ -51,12 +49,13 @@ body {
 }
 
 .content h2 {
-    margin-top: 100px;
+    font-family: Header-Font;
+    margin-top: 50px;
     padding: 10px 10px 10px 10px;
     font-size: 24px;
     color: #2c3e50;
-    border-bottom: 2px solid #2c3e50;
-    font-stretch: 100%;
+    border-bottom: 2px dashed #2c3e50;
+    text-align: left;
 }
 
 .clearfix:after {
@@ -67,15 +66,15 @@ body {
 
 .legend, .text {
     padding: 20px 20px 20px 20px;
+    font-size: 20px;
+    line-height: 140%;
 }
 
-.legend {
-    font-size: 20px;
+.legend { 
     text-align: center;
 }
 
 .text {
-    font-size: 18px;
     text-align: justify;
 }
 
